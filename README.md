@@ -70,5 +70,6 @@ abstract class Page extends BasePage
 # Source code
 Related source code is [here](./src).
 
-
-
+# References
+* [SeleniumHQ: Test Design Considerations](http://www.seleniumhq.org/docs/06_test_design_considerations.jsp) 
+* [Browser Tests (Laravel Dusk)](https://laravel.com/docs/5.4/dusk)

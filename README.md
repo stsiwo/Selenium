@@ -6,8 +6,67 @@ Browser testing tools such as Selenium and Dusk in Laravel are useful. However, 
 
 Here is my diagram how Page Object pattern and UI Map class works:
 
-<img src="./PageObjectDesignPatternDiagram.png" width="100" height="100">
+<img src="./PageObjectDesignPatternDiagram.png" width="700" height="600" align="center">
 
+## Example
+
+In my own project, I have a contact page so that users can send any request through email. In order to make sure the contact functionality, I used Dusk in Laravel. Here are actual codes implemented Page Object pattern and UI Map class.
+
+### Test Class
+```
+class ContactFormTest extends DuskTestCase
+{
+    /** @test */
+    public function it_type_each_input_then_submit_and_redirect_home_with_flush_session_message()
+    {
+        $this->browse(function (Browser $browser) {
+            $browser->visit(new ContactPage)
+                    ->makeContactFormWithValidInput()
+                    ->assertPathIs('/')
+                    ->assertSee('Thanks!');
+        });
+    }
+    ...
+}
+```
+### Page Class
+```
+class ContactPage extends Page
+{
+    ...
+    public function makeContactFormWithValidInput(Browser $browser)
+    {
+        $browser->waitFor('@contact-name')
+                ->type('@contact-name', $this->data->getValidName())
+                ->type('@contact-email', $this->data->getValidEmail())
+                ->type('@contact-subject', $this->data->getValidSubject())
+                ->type('@contact-message', $this->data->getValidMessage())
+                ->click('@contact-submit');
+    }
+    ...
+}
+```
+### UI Map Class
+In Dusk, it uses inheritance to access UI components globally rather than compositon. 
+```
+abstract class Page extends BasePage
+{
+    ...
+    public static function siteElements()
+    {
+        return [
+          ...
+          // contact page selectors
+          '@contact-name' => '#contact-name',
+          '@contact-email' => '#contact-email',
+          '@contact-subject' => '#contact-subject',
+          '@contact-message' => '#contact-message',
+          '@contact-submit' => '#contact-submit',
+        ];
+    }
+    ...
+}
+```
 
 
 

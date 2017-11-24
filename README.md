@@ -6,7 +6,7 @@ Browser testing tools such as Selenium and Dusk in Laravel are useful. However, 
 
 Here is my diagram how Page Object pattern and UI Map class works:
 
-![alt text](./PageObjectDesignPattern_Diagram.png?raw=true)
+![alt text](./PageObjectDesignPatternDiagram.png?raw=true)
 
 
 

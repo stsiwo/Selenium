@@ -4,7 +4,10 @@ Unit testing and integration testing are essential components when building stab
 
 Browser testing tools such as Selenium and Dusk in Laravel are useful. However, It is also important to think about how to organize browswer testing classes in order to make your code maintainable and avoid any duplicated code. Page object design pattern and UI Map class allow you to accommodate such a request.
 
-Here is basic idea how Page Object pattern and UI Map class works:
+Here is my diagram how Page Object pattern and UI Map class works:
+
+![alt text](./PageObjectDesignPattern_Diagram.png?raw=true)
+
 
 
 

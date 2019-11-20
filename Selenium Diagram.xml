@@ -1,1 +1,28 @@
-<mxfile userAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" version="7.7.1" editor="www.draw.io" type="github"><diagram id="e0b822b7-1cf8-c721-6537-55caaa2b6488" name="Page-1">7Vrbbts4EP0aAd2HLnTx9TF20u1DCgQb7LZ5pCXa4oYiDYqK7X79DiVSl5AK0kZ2WsNugIpDUiLnzDkejuxFy2z/l0Db9AtPMPVCP9l70bUXwmc6gf+U5VBZgtloVFk2giTa1hjuyXesjb62FiTBeWeg5JxKsu0aY84YjmXHhoTgu+6wNafdp27RBluG+xhR2/qVJDKtrLOx39g/Y7JJzZMDX/esUPy4Ebxg+nleGK3LT9WdIXMvPT5PUcJ3LVN040VLwbmsrrL9ElPlXOO2at6nnt563QIz+aoJGqlcHszecQKu0E0uZMo3nCF601gX5f6wuoMPrVRmFC4DuMR7Ir8p859j3XrQg2A54tDqUs0HPYuiFaaL2nFLTrkolxJ9Kj8w5D8s5UGHCSokB1OztFvOt/pWa86kHhaMoB0X4qlcqOqsdqq21+ssbcp5IWI9KtThh8QG61HTGihgAOYZhs3AEIEpkuSpe3ekI3FTj2vQgAsNiBsc/egnRAt903tMMSNFBtaveHUt4GnCAjDfkYwippCKU0KTW3TghVp6LsHJprVIuSDfwV/IoAfdwngv8jsj7tVMDeWaUNrCyPdnMYR35XsXdk20PEdoatp67X65CMEfa9KFaj7OYfydQcmvTbcol2bphkaqN0F5WkcnomTD4DqG2eArEwXgN4n3L8eBjbCeEE00e7W8hXPd3jVaERqtSNs6YWj/lqiIrKjwwkUpcqKUXIYyEqvF4JVRuucRYpxC8VrWPjfYMV6GThtmbcq3KCZsc1vOuh450FRuJSCjV/oBUjGzggutaowFl0i22uB5A+Sr0And6Gg0oleCMR8Ai9FLDL3H4kLPd6DnxzqNeImf02Pxc9zDz6xQ+Qt4UqUBgDxTVx8Ii2mRAKug8e+XP86NqqMfpqoLlyGoGkwt3/4+eczPpS4TO3WZnyh1mVgkWKYCbnNJWd4pZZl2JXHiYJ5/LEWcuhTxSkpBVoXEsHCIlijwy5029rDHHp2bRk5+WCNdSA2hkbMe1oJtoQ7VF+a+/2HjY3BS7s4v3H0Ju9kvw91gbvm2XcnRfjv3lCeI7JwnOlHOE9gn87vPd6ooSJjO8ClZCaTvelHRU6qoKZtoZo5mNjUjc3QbXEQDu06gz4Rou60iw13Z84Evoa+iaBl6V35XVb2y/g3Op3W1JzHzdgR2Vc08M8UNeujcL7lOXAeRXPuoXwPwId/imKzLShzJ4NifwQ5Abzizz/iwXemK++cOzUiSUDcW2vK33uDIArakvfrYcoB99c8FDSdMlv4ZL+APPLZU3wFjmLSEdtC04U8NF6AmDJ6LSIkWBrbvsGJ8j7oPW4UNHd+2rsJfNBkAejtVrrl4QXcIdEfP094TomsiqYWu+g7PL9gOxNyg+2X82pL9INjaZ5Bh8uRfLheu35y3cuGgpyA7/LvLwJUM/8OIvCS/J09+o27yO3FUEI6X/KqhzuR3ZUpKvlRSA9ksys/vXWUPNO+Qrpq3lW9UPnP94HVKAt+8Vrmg6TuiKgKJtqpBCXv8aZEc2xp5qnqB401hQswvhS5JxhtFb97NH6Px8XIMaDa/2Cr7Wr+Li27+Bw==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-20T17:36:27.046Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" version="12.2.6" etag="47iRPw-sJYVFfu-IJfi-" type="github" pages="1">
+  <diagram id="e0b822b7-1cf8-c721-6537-55caaa2b6488" name="Page-1">
+    <mxGraphModel dx="750" dy="1541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="b6LLgVWBNl_QhPx2bSEz-25" value="Selenium Basic knowledge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-60" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="b6LLgVWBNl_QhPx2bSEz-33" value="connect&amp;nbsp;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6LLgVWBNl_QhPx2bSEz-31" target="b6LLgVWBNl_QhPx2bSEz-32">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="b6LLgVWBNl_QhPx2bSEz-31" value="Selenium Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="b6LLgVWBNl_QhPx2bSEz-32" value="Remote Web Driver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-20" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="b6LLgVWBNl_QhPx2bSEz-34" value="Web App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="b6LLgVWBNl_QhPx2bSEz-35" value="Web Driver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="140" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

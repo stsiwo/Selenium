@@ -1,4 +1,4 @@
-# Page Object Design Pattern and UI Map Class
+# Page Object Design Pattern and UI Map (Locators) Class
 
 Unit testing and integration testing are essential components when building stable project; however, fanctional testing is the final step to make sure that a certain functionality works properly. In some case of fanctional testing, front-end programming is involved in the test. Browser testing is the solution to deal with such cases.
 
@@ -52,7 +52,7 @@ class ContactPage extends Page
     ...
 }
 ```
-### UI Map Class
+### UI Map Class (Locator)
 
 The main role of this UI Map is to map a test specific constant to a selector of specific DOM element. The benefit of this is to encapsulate UI selector logic into a single class and expose its representitive form (constants) to test cases; therefore, any change to UI selectors does not affect outside this class. for instance of bellow class, if a UI selector, let's say '#contact-name' has changed to '#contact-name-attribute' for some reason, the only thing you need to update the test source code is to fix this UI Map class. You do not need to update any other source code like test cases. 
 
